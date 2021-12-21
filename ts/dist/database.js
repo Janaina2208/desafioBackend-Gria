@@ -16,7 +16,7 @@ const mongoose_1 = __importDefault(require("mongoose"));
 function connect() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            yield mongoose_1.default.connect("mongodb+srv://HannahFreitas:07042805@cluster0.ppvmo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+            yield mongoose_1.default.connect("mongodb+srv://janainaLopes:987928739@cluster0.ppvmo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
             console.log("Database connected!");
         }
         catch (error) {
