@@ -7,8 +7,8 @@ const JobsSchema = new mongoose_1.Schema({
     levelSkills: String,
     period: String,
     local: Object,
-    finalSubscription: Date,
-    initialSubscription: Date,
+    finalSubscription: String,
+    initialSubscription: String,
     contract: String,
     vacantJob: Number,
     employeer: Number,
@@ -16,6 +16,7 @@ const JobsSchema = new mongoose_1.Schema({
     occupationArea: String,
     description: String,
     technicalAbilities: Array,
+    behavioralAbilities: Array,
     benefits: Array,
     salary: String
 }, { timestamps: true });
